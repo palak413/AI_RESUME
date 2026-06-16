@@ -2,9 +2,9 @@ import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 import mongoose from 'mongoose'
-import resumeRoutes from './routes/resumeRoutes.js'
-import jobRoutes from './routes/jobRoutes.js'
-import matchRoutes from './routes/matchRoutes.js'
+import resumeRoutes from './src/routes/resumeRoutes.js'
+import jobRoutes from './src/routes/jobRoutes.js'
+import matchRoutes from './src/routes/matchRoutes.js'
 
 dotenv.config()
 
